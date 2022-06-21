@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    <script src="index.js"></script>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Table</h2>
+
+<table id = "tb1">
+  <tr>
+    <th>SL.No</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>City</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Rishi </td>
+    <td>Mishra</td>
+    <td>Lucknow</td>
+    <td>India</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Aman</td>
+    <td>Mishra</td>
+    <td>Lucknow</td>
+    <td>India</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Ram</td>
+    <td>Singh</td>
+    <td>Punjab</td>
+    <td>India</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Ankit</td>
+    <td>Singh</td>
+    <td>Dehradun</td>
+    <td>India</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Tamas</td>
+    <td>Sinha</td>
+    <td>Varanasi</td>
+    <td>India</td>
+  </tr>
+</table>
+    <div onclick="appendRow()" class="btn1">
+        <button><b>Add row to bottom</b></button>
+    </div>
+    <div onclick="appendRowTop()">
+        <button class="btn2"><b>Add row to top</b></button>
+    </div>
+</body>
+</html>
+
